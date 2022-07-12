@@ -1,0 +1,45 @@
+body{
+	width: 95%;
+	height: 100%;
+	margin: auto;}
+.nav{
+	width: 60%;
+	border-top: 3px solid black;
+	border-bottom: 1px solid black;
+	margin: 15px auto 15px auto;}
+.nav li{
+	display: inline;}
+.nav a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 1px;}
+.nav a:visited{
+	text-transform: lowercase;}
+.nav a:hover{
+	background-color: red;}
+.nav a:active{
+	color: green;
+	background-color: yellow;}
+#home{
+	width: 47.5%;
+	margin: 5px auto 5px auto;}
+#home p{
+	width: 15%;
+	height: 75px;
+	border: 1px solid black;
+	margin: 15px;
+	padding: 15px;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: yellow;}
+#home a{
+	text-decoration: none;
+	color: black;}
+footer{
+	text-align: center;
+	border: 1px solid black;
+}
